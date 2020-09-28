@@ -1,6 +1,6 @@
 # Mask Radio
 
-A website to host radio broadcasts. The radio performer can live stream audio. The connected users can send song requests to be played, if the performer chooses to. Moreover, there is a real-time chat for the connected users.
+A website to host radio broadcasts. The radio performer can live stream audio. The connected users can send song requests to be played, if the performer chooses to. Moreover, there is a real-time chat and a user register & login system.
 
 ## Getting Started
 
