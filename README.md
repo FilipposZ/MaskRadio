@@ -1,22 +1,31 @@
-# MaskRadio
-A Node Js server to host my radio, have fun with my friends and spend some time in Covid-19 Carantine. Also all files:
--HTML
--CSS
--JS
--Server Js
+# Mask Radio
 
-Are included
+A website to host radio broadcasts. The radio performer can live stream audio. The connected users can send song requests to be played, if the performer chooses to. Moreover, there is a real-time chat and a user register & login system.
 
-Fixes:
-->Better Navbar
-->Safety Implementation
+## Getting Started
 
-To do:
-1. Go HTTPS (certificate)?
-2. Count Connected Users
-3. Add youtube search API to song and when click something set value to link or title?
-4. Auto load song when send and add it to a playlist!
-5. Make it more generic use a layout and throw content in it.
+### Prerequisites
+The only prerequisite is having *npm* installed.
 
+### Installation
+Go into the folders *server* and *client* and install the dependencies.
+```
+cd client
+npm i 
+cd ../server
+npm i
+```
 
-Contributor: https://github.com/ZiposC
+### Usage
+To start the react development server and the backend server run on the *server* folder
+```
+npm run dev
+```
+
+## ToDo:
+- [ ] Migrate the front end to react
+- [ ] Automate playing songs via embedded player
+- [ ] Display the playlist to authorised users
+
+## Acknowledgements
+The project was forked by [Vasilis Mpletsos](https://github.com/VasilisMpletsos).
